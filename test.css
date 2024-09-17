@@ -1,0 +1,76 @@
+.background-card1{
+    background-image: url("https://img.freepik.com/free-photo/spooky-fog-veils-dark-mystery-burning-tree-ignites-autumn-flame-generated-by-artificial-intelligence_25030-62818.jpg?t=st=1726538236~exp=1726541836~hmac=6158e1d1bf3f83d3d73d81a8a578c283d931602e0d09f443bb986d4d13206f6f&w=1060");
+    background-size: cover;
+    padding: 30px;
+}
+.image-adjust1{
+    width: 250px;
+    height: 420px;
+    border-radius: 4px;
+}
+.heading1{
+    font-family: "playfair Display";
+    font-size: 35px;
+    color: #3b2716;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+.paragraph1{
+    font-size:18px ;
+    font-family: "crimson text";
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    
+}
+.button1{
+    background-color:rgb(150, 212, 221);
+    border-radius: 4px;
+    color: rgb(22, 49, 72);
+    font-size: 11px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: underline;
+}
+.background-card2{
+    background-color: rgb(150, 185, 186);
+    background-size: cover;
+
+
+}
+.heading2{
+    text-align: center;
+    font-family: bree serif;
+    font-size: 25px;
+    color: ;
+}
+.contents1{
+    font-family: "bree serif";
+    font-size: 22px;
+    color: #0a0807;
+    text-decoration: underline;
+}
+.background-card3{
+    background-color: #0f1311;
+}
+.heading3{
+    font-family: "bree serif";
+    font-size: 23px;
+    color: gainsboro;
+}
+.image-adjust2{
+    border-radius: 5px;
+    width: 500px;
+    height:260px ;
+}
+.paragraph2{
+    text-align: center;
+    font-family: "lora";
+    font-size: 20px;
+    color: #6E7F80;
+}
+.button2{
+    font-size: 18px;
+    border-radius: 8px;
+}
