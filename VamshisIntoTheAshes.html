@@ -12,544 +12,576 @@
     <link rel="stylesheet" href="test.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-orange bg-orange> </nav>
+  <a class="navbar-brand" href="#"><img src="https://img.freepik.com/premium-vector/book-logo-vector-9_996668-268.jpg?w=2000" class="image-logo"/></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-link" href="#">Features</a>
-      <a class="nav-link" href="#">Pricing</a>
-      <a class="nav-link disabled">Disabled</a>
+    <div class="navbar-nav ml-auto">
+      <a class="nav-link active" id="nav-color1" href="#" onclick="display('sectionHomePage')">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" id="nav-color2" href="#" onclick="display('sectionContentDetails')">Contents</a>
     </div>
   </div>
 </nav>
+
 <div id="sectionHomePage">
     <div class="background-card1">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-        <div>
-       <h1 class="heading1">Into The Ashes</h1>
-       </div>
-       <div class="d-flex flex-row justify-content-center">
-       <img src="https://img.freepik.com/premium-photo/poster-movie_1308172-660228.jpg?w=360" class="image-adjust1"/>
-       </div>
-       <div>
-       <p class="paragraph1">"In a world turned to ash, love is the flame<br/> that refuses to die."</p>
-       </div>
-       <div class="d-flex flex-row justify-content-center">
-        <button class="button1" onclick="display('sectionContentDetails')">Read Now</button>
-       </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 text-center m-auto d-flex flex-column justify-content-center">
+            <div>
+                <h1 class="heading1 mb-3">Into The Ashes</h1>
+            </div>
+            <div >
+                <img src="https://img.freepik.com/premium-photo/poster-movie_1308172-660228.jpg?w=360" class="image-adjust1"/>
+            </div>
+            <div >
+                <p class="paragraph1 mt-3 mb-3">"In a world turned to ash, love is the flame<br/> that refuses to die."</p>
+            </div>
+            <div>
+                <button class="button1" onclick="display('sectionContentDetails')">Read Now</button>
+            </div>
+        </div>
+        </div>
     </div>
     </div>
-</div>
-</div>
 </div>
 
 <div id="sectionContentDetails">
     <div class="background-card2">
-        <div class="container">
-            <div class="row">
-                <div class=col-12>
-        <div>
-        <h1 class="heading2">Contents</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 text-center m-auto d-flex flex-column justify-content-center">
+            <div>
+                <h1 class="heading2 mt-4 mb-3">Contents</h1>
+            </div>
+            <div>
+                <ol >
+                    <li class="contents1" onclick="display('sectionEpisode1')">Episode 1: "The Ruins of War"</li>
+                    <li class="contents1" onclick="display('sectionEpisode2')">Episode 2: "Dangerous Roads"</li>
+                    <li class="contents1" onclick="display('sectionEpisode3')">Episode 3: "Forces of Nature"</li>
+                    <li class="contents1" onclick="display('sectionEpisode4')">Episode 4: "Shadows of the Past"</li>
+                    <li class="contents1" onclick="display('sectionEpisode5')">Episode 5: "The Price of Survival"</li>
+                    <li class="contents1" onclick="display('sectionEpisode6')">Episode 6: "A Fragile Alliance"</li>
+                    <li class="contents1" onclick="display('sectionEpisode7')">Episode 7: "Beneath the Ashes"</li>
+                    <li class="contents1" onclick="display('sectionEpisode8')">Episode 8: "Ashes to Ashes"</li>
+                </ol>
+            </div>
+            <div>
+                <button class="button3 btn btn-primary mt-3 mb-3" onclick="display('sectionHomePage')">back</button>
+            </div>
         </div>
-        <div class="d-flex flex-row justify-content-center">
-            <ol >
-                <li class="contents1" onclick="display('sectionEpisode1')">Episode 1: "The Ruins of War"</li>
-                <li class="contents1" onclick="display('sectionEpisode2')">Episode 2: "Dangerous Roads"</li>
-                <li class="contents1" onclick="display('sectionEpisode3')">Episode 3: "Forces of Nature"</li>
-                <li class="contents1" onclick="display('sectionEpisode4')">Episode 4: "Shadows of the Past"</li>
-                <li class="contents1" onclick="display('sectionEpisode5')">Episode 5: "The Price of Survival"</li>
-                <li class="contents1" onclick="display('sectionEpisode6')">Episode 6: "A Fragile Alliance"</li>
-                <li class="contents1" onclick="display('sectionEpisode7')">Episode 7: "Beneath the Ashes"</li>
-                <li class="contents1" onclick="display('sectionEpisode8')">Episode 8: "Ashes to Ashes"</li>
-            </ol>
-        </div>
-        <button class="button3 btn btn-primary" onclick="display('sectionHomePage')">back</button>
-    
-        </div>
-                 </div>
-             </div>
+    </div>
+    </div>
+</div>
 </div>
 
 <div id="sectionEpisode1">
     <div class="background-card3">
-    <div class="d-flex flex-row justify-content-center">
-        <h1 class="heading3">Episode 1: "The Ruins of War"</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center m-auto d-flex flex-column justify-content-center">
+                    <div>
+                        <h1 class="heading3 mt-4 mb-3">Episode 1:"Ruins Of The War."</h1>   
+                     </div>
+                     <div>
+                     <img src="https://img.freepik.com/free-photo/apocalyptic-destruction-war-zone-landscape_23-2150985686.jpg?t=st=1727614979~exp=1727618579~hmac=0cf2010d9c32f33fb5c1085bc0f2ec45c6ed9e24a3cb0d7c25823207377f6658&w=1380"  class="image-adjust2"/>
+                     </div>
+                     <div class="paragraph2 mt-4 mb-3">
+                        <p>
+                            The war had started years ago, ignited by a battle for dwindling 
+                            resources and corrupt politicalfactions. It wasn’t just the war 
+                            that broke the land—it was the climate itself. Raging wildfires 
+                            burned forests, once-vibrant cities were reduced to skeletons of
+                            concrete and steel, and the air grew thick with smoke and ash. 
+                            The last functioning governments had collapsed, leaving the 
+                            country in a state of chaos. What remained were only patches
+                            of survivors, each isolated and mistrusting of others.
+                        </p>
+                        
+                        <p>
+                            In the midst of this chaos, Alex had learned to survive alone.
+                            After losing her family in the early days of the conflict, 
+                            she had honed her skills in scavenging and self-defense, 
+                            building emotional walls as high as the crumbling buildings
+                            she hid in. She didn’t trust anyone and avoided all human 
+                            contact. David, a former soldier, had been wandering aimlessly
+                            since the war’s escalation. He was haunted by the things he 
+                            had done during the war, plagued by guilt and the memory of 
+                            the comrades he had lost. He sought nothing more than survival,
+                            feeling as though he didn’t deserve redemption.
+                        </p>
+                
+                        <p>
+                            They met by chance in an abandoned supply warehouse deep in 
+                            the forest. Alex, intent on gathering provisions, was 
+                            startled to find David already there, rummaging through the
+                            sparse remains of food and medical supplies. Their initial 
+                            encounter was tense—neither willing to back down, both 
+                            suspicious of each other’s intentions. Weapons were drawn, 
+                            but neither made a move. A cold, silent standoff followed, 
+                            broken only when the sound of distant gunfire echoed through 
+                            the trees.
+                        </p>
+                
+                        <p>
+                            A group of marauders known as "The Black Sun" was closing in, 
+                            forcing the two to abandon the warehouse and flee deeper into 
+                            the forest. They had no choice but to move together, though 
+                            neither trusted the other.For Alex, survival had always meant 
+                            staying alone, and David wasn’t keen on depending on anyone
+                            after his experiences in the war. But the constant threats
+                            around them meant they had to work together, however reluctantly.           
+                        </p>
+                        <button class="button3 btn btn-primary mt-3 mb-3" onclick="display('sectionContentDetails')">back</button>
+                        <button class="button2 btn btn-primary mt-3 mb-3" onclick="display('sectionEpisode2')">Next Episode</button>
+                    </div>                
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="d-flex flex-row justify-content-center">
-        <img src="https://img.freepik.com/free-photo/apocalyptic-war-zone-landscape-with-destruction_23-2150985753.jpg?t=st=1726550539~exp=1726554139~hmac=44d8d27e7f8c421d6afd6ae0b65452d6c08a5d2c1b4bff37c75890860a18a197&w=900" class="image-adjust2"/>
-    </div>
-    <div class="paragraph2">
-        <p>
-            The war had started years ago, ignited by a battle for dwindling <br/>
-            resources and corrupt politicalfactions. It wasn’t just the war <br/>
-            that broke the land—it was the climate itself. Raging wildfires <br/>
-            burned forests, once-vibrant cities were reduced to skeletons of<br/>
-            concrete and steel, and the air grew thick with smoke and ash. <br/>
-            The last functioning governments had collapsed, leaving the <br/>
-            country in a state of chaos. What remained were only patches<br/>
-            of survivors, each isolated and mistrusting of others.
-        </p>
-        
-        <p>
-            In the midst of this chaos, Alex had learned to survive alone.<br/>
-            After losing her family in the early days of the conflict, <br/>
-            she had honed her skills in scavenging and self-defense, <br/>
-            building emotional walls as high as the crumbling buildings<br/>
-            she hid in. She didn’t trust anyone and avoided all human <br/>
-            contact. David, a former soldier, had been wandering aimlessly<br/>
-            since the war’s escalation. He was haunted by the things he <br/>
-            had done during the war, plagued by guilt and the memory of <br/>
-            the comrades he had lost. He sought nothing more than survival, <br/>
-            feeling as though he didn’t deserve redemption.
-        </p>
-
-        <p>
-            They met by chance in an abandoned supply warehouse deep in <br/>
-            the forest. Alex, intent on gathering provisions, was <br/>
-            startled to find David already there, rummaging through the<br/>
-            sparse remains of food and medical supplies. Their initial <br/>
-            encounter was tense—neither willing to back down, both <br/>
-            suspicious of each other’s intentions. Weapons were drawn, <br/>
-            but neither made a move. A cold, silent standoff followed, <br/>
-            broken only when the sound of distant gunfire echoed through <br/>
-            the trees.
-        </p>
-
-        <p>
-            A group of marauders known as "The Black Sun" was closing in, <br/>
-            forcing the two to abandon the warehouse and flee deeper into <br/>
-            the forest. They had no choice but to move together, though <br/>
-            neither trusted the other.For Alex, survival had always meant <br/>
-            staying alone, and David wasn’t keen on depending on anyone <br/>
-            after his experiences in the war. But the constant threats <br/>
-            around them meant they had to work together, however reluctantly.           
-        </p>
-        <button class="button3 btn btn-primary" onclick="display('sectionContentDetails')">back</button>
-        <button class="button2 btn btn-primary" onclick="display('sectionEpisode2')">Next Episode</button>
-    </div>
-    
-    </div>
-
 </div>
-
 
 <div id="sectionEpisode2">
     <div class="background-card3">
-        <div class="d-flex flex-row justify-content-center">
-        <h1 class="heading3">Episode 2: "Dangerous Roads"</h1>
-        </div>
-        <div class="d-flex flex-row justify-content-center">
-            <img src="https://img.freepik.com/premium-photo/couple-forest-with-girl-left_1085346-124833.jpg?w=1060"/ class="image-adjust2">
-        </div>
-        <div class="paragraph2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center m-auto d-flex flex-column justify-content-center">
+                <div>
+                    <h1 class="heading3 mt-4 mb-3">Episode 2: "Dangerous Roads"</h1>
+                </div>
+                <div>
+                    <img src="https://img.freepik.com/premium-photo/couple-forest-with-girl-left_1085346-124833.jpg?w=1060"/ class="image-adjust2">
+                </div>
+            <div class="paragraph2 mt-4 mb-3">
             <p>
-                The forest was dense and unforgiving, with charred trees, thick underbrush, <br/>
-                and unpredictable weather. As Alex and David made their way through the <br/>
-                wilderness, it became clear that their survival depended on more than just<br/> 
-                avoiding The Black Sun; they had to navigate the wild itself. The fires had<br/> 
-                ravaged much of the forest, but storms and flash floods were also common, <br/>
-                turning paths into rivers and creating deadly mudslides. The environment <br/>
-                itself seemed intent on their destruction.
+                The forest was dense and unforgiving, with charred trees, thick underbrush,
+                and unpredictable weather. As Alex and David made their way through the 
+                wilderness, it became clear that their survival depended on more than just 
+                avoiding The Black Sun; they had to navigate the wild itself. The fires had 
+                ravaged much of the forest, but storms and flash floods were also common, turning 
+                paths into rivers and creating deadly mudslides. The environment itself 
+                seemed intent on their destruction.
             </p>
 
             <p>
-                Despite the constant danger, the tension between Alex and David only grew. <br/>
-                Alex was convinced that David had ties to The Black Sun due to his military<br/>
-                background. She had seen too many like him—men who had abandoned their <br/>
-                humanity for power and control. David, on the other hand, began to suspect <br/>
-                that Alex was hiding something. Her survival instincts were sharp, almost <br/>
+                Despite the constant danger, the tension between Alex and David only grew. Alex was convinced
+                that David had ties to The Black Sun due to his military background. She had seen too many 
+                like him—men who had abandoned their humanity for power and control. David, on the other hand, 
+                began to suspect that Alex was hiding something. Her survival instincts were sharp, almost 
                 too sharp for someone who claimed to be just a scavenger.
             </p>
 
             <p>
-                Their fragile alliance was tested when they stumbled upon a fork in the <br/>
-                forest path. Alex wanted to take a dangerous shortcut through an area <br/>
-                known for frequent wild animal attacks, while David insisted on taking <br/>
-                the longer, safer route. Their argument quickly escalated, neither <br/>
-                willing to concede. Frustrated, Alex stormed ahead, but her decision <br/>
-                led them straight into danger—a wild animal ambush. They barely escaped<br/>
-                with their lives, but the close call deepened the mistrust between them.
+                Their fragile alliance was tested when they stumbled upon a fork in the forest path. Alex wanted 
+                to take a dangerous shortcut through an area known for frequent wild animal attacks, while David 
+                insisted on taking the longer, safer route. Their argument quickly escalated, neither willing to 
+                concede. Frustrated, Alex stormed ahead, but her decision led them straight into danger—a wild 
+                animal ambush. They barely escaped with their lives, but the close call deepened the mistrust 
+                between them.
             </p>
 
             <p>
-                After the encounter, the silence between them was thick with blame and <br/>
-                resentment. Alex knew she had made a mistake, but her pride kept her <br/>
-                from admitting it. David’s leg was injured in the skirmish, but he <br/>
-                pushed through the pain, unwilling to show any weakness. Despite the <br/>
-                growing distance between them, they had no choice but to continue <br/>
-                together. The forest wasn’t safe for anyone alone.
-            </p>
-            <button class="btn btn-primary" onclick="display('sectionContentDetails')">Contents Page</button>
-            <button class="button3 btn btn-primary" onclick="display('sectionEpisode1')">Previous Episode</button>
-            <button class="button2 btn btn-primary" onclick="display('sectionEpisode3')">Next Episode</button>
+                After the encounter, the silence between them was thick with blame and resentment. Alex knew she 
+                had made a mistake, but her pride kept her from admitting it. David’s leg was injured in the 
+                skirmish, but he pushed through the pain, unwilling to show any weakness. Despite the growing 
+                distance between them, they had no choice but to continue together. The forest wasn’t safe for 
+                anyone alone.
+        </p>
+            <button class="btn btn-primary mt-3 mb-3" onclick="display('sectionContentDetails')">Contents Page</button>
+            <button class="button3 btn btn-primary mt-3 mb-3" onclick="display('sectionEpisode1')">Previous Episode</button>
+            <button class="button2 btn btn-primary mt-3 mb-3" onclick="display('sectionEpisode3')">Next Episode</button>
+        </div>
+        </div>
         </div>
     </div>
-
+    </div>
 </div>
-
 
 <div id="sectionEpisode3">
     <div class="background-card3">
-        <div class="d-flex flex-row justify-content-center">
-        <h1 class="heading3">Episode 3: "Forces of Nature"</h1>
-        </div>
-        <div class="d-flex flex-row justify-content-center">
-            <img src="https://img.freepik.com/premium-photo/photo-man-putting-log-bonfire-evening_948953-14411.jpg?w=740" class="image-adjust2"/ >
-        </div>
-        <div class="paragraph2">
-            <p >
-                The wildfires had left the forest dry and brittle, and as Alex <br/>
-                and David journeyed deeper, the threat of fire became all too <br/>
-                real. One afternoon, they found themselves caught in the <br/>
-                middle of a rapidly spreading blaze. The heat was unbearable, <br/>
-                the air thick with smoke, and the ground beneath them crackled <br/>
-                with embers. There was no choice but to run. The fire chased <br/>
-                them through narrow valleys and treacherous terrain, the flames <br/>
-                licking at their heels.
-            </p>
-
-            <p>
-                As they struggled to escape, David’s injury slowed them down, and <br/>
-                Alex was forced to support him. The danger forced them into moments<br/>
-                of vulnerability they had been avoiding. At one point, when they <br/>
-                were briefly trapped between walls of fire, David opened up about <br/>
-                his past. He spoke of the things he had done during the war—the <br/>
-                choices that haunted him, the people he had killed. His voice was <br/>
-                thick with guilt, and for the first time, Alex saw past the <br/>
-                soldier’s stoic exterior.
-            </p>
-
-            <p>
-                Alex was hesitant to reciprocate his vulnerability, but the suffocating <br/>
-                closeness of death in the flames forced her hand. She revealed that <br/>
-                she had lost her family in the early days of the war. The fires had <br/>
-                taken everything from her, and since then, she had lived only for <br/>
-                herself. Her walls, built so carefully over the years, began to crack. <br/>
-                For the first time since they met, the tension between them eased, <br/>
-                if only slightly.
-            </p>
-
-            <p>
-                They eventually escaped the fire, finding refuge in the ruins of an old <br/>
-                village that had been overrun by nature. But as they sat by a stream, <br/>
-                tending to their wounds, Alex remained silent about one important <br/>
-                truth—her involvement in the rebel group that had contributed to the <br/>
-                war’s escalation. She couldn’t bring herself to reveal the darkest part <br/>
-                of her past just yet.
-            </p>
-            <button class="btn btn-primary" onclick="display('sectionContentDetails')">Contents Page</button>
-            <button class="button3 btn btn-primary" onclick="display('sectionEpisode2')">Previous Episode</button>
-            <button class="button2 btn btn-primary" onclick="display('sectionEpisode4')">Next Episode</button>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 text-center m-auto d-flex flex-column justify-content-center">
+            <div>
+                <h1 class="heading3 mt-4 mb-3">Episode 3: "Forces of Nature"</h1>
+            </div>
+            <div>
+                <img src="https://img.freepik.com/premium-photo/photo-man-putting-log-bonfire-evening_948953-14411.jpg?w=740" class="image-adjust2"/>
+            </div>
+            <div class="paragraph2 mt-4 mb-3">
+                <p >
+                    The wildfires had left the forest dry and brittle, and as Alex 
+                    and David journeyed deeper, the threat of fire became all too 
+                    real. One afternoon, they found themselves caught in the 
+                    middle of a rapidly spreading blaze. The heat was unbearable, 
+                    the air thick with smoke, and the ground beneath them crackled 
+                    with embers. There was no choice but to run. The fire chased 
+                    them through narrow valleys and treacherous terrain, the flames 
+                    licking at their heels.
+                </p>
+    
+                <p>
+                    As they struggled to escape, David’s injury slowed them down, and 
+                    Alex was forced to support him. The danger forced them into moments
+                    of vulnerability they had been avoiding. At one point, when they 
+                    were briefly trapped between walls of fire, David opened up about 
+                    his past. He spoke of the things he had done during the war—the 
+                    choices that haunted him, the people he had killed. His voice was 
+                    thick with guilt, and for the first time, Alex saw past the 
+                    soldier’s stoic exterior.
+                </p>
+    
+                <p>
+                    Alex was hesitant to reciprocate his vulnerability, but the suffocating 
+                    closeness of death in the flames forced her hand. She revealed that 
+                    she had lost her family in the early days of the war. The fires had 
+                    taken everything from her, and since then, she had lived only for 
+                    herself. Her walls, built so carefully over the years, began to crack. 
+                    For the first time since they met, the tension between them eased, 
+                    if only slightly.
+                </p>
+    
+                <p>
+                    They eventually escaped the fire, finding refuge in the ruins of an old
+                    village that had been overrun by nature. But as they sat by a stream, 
+                    tending to their wounds, Alex remained silent about one important 
+                    truth—her involvement in the rebel group that had contributed to the 
+                    war’s escalation. She couldn’t bring herself to reveal the darkest part 
+                    of her past just yet.
+                </p>
+                <button class="btn btn-primary mt-3 mb-3" onclick="display('sectionContentDetails')">Contents Page</button>
+                <button class="button3 btn btn-primary mt-3 mb-3" onclick="display('sectionEpisode2')">Previous Episode</button>
+                <button class="button2 btn btn-primary mt-3 mb-3" onclick="display('sectionEpisode4')">Next Episode</button>
+            </div>    
         </div>
     </div>
+    </div>
+    </div>
 </div>
-
 
 <div id="sectionEpisode4">
     <div class="background-card3">
-        <div class="d-flex flex-row justify-content-center">
-        <h1 class="heading3">Episode 4: "Shadows of the Past"</h1>
-        </div>
-        <div class="d-flex flex-row justify-content-center">
-            <img src="https://img.freepik.com/free-photo/shadows-people-partying-rooftop_23-2148266873.jpg?t=st=1726556283~exp=1726559883~hmac=01421b60611df16509002f2b3ed6bf349908969a958c9509c26fb266a2a6e273&w=996" class="image-adjust2"/>    
-        </div>
-        <div class="paragraph2">
-            <p>
-                The peace of the abandoned village didn’t last long. One night, <br/>
-                while they were resting, a figure from Alex’s past appeared—Elias, <br/>
-                a former comrade from the rebel group she had once been a part of. <br/>
-                He had been tracking her for days, intent on drawing her back into <br/>
-                the fight. His appearance sent Alex spiraling into fear and regret. <br/>
-                She had left the group after realizing the violence was only <br/>
-                worsening the war, but Elias had remained, willing to do whatever <br/>
-                it took to win.
-            </p>
-
-            <p>
-                Elias exposed Alex’s secret to David—her involvement in the rebellion, <br/>
-                and how her actions had contributed to the war’s escalation. David <br/>
-                felt betrayed, angry that she hadn’t told him sooner. The revelation <br/>
-                deepened the divide between them. Alex, once again, found herself on <br/>
-                the defensive, trying to justify her past actions, but David’s trust <br/>
-                had been shattered. He couldn’t reconcile the woman he had begun to <br/>
-                care for with the rebel who had caused so much destruction.
-            </p>
-
-            <p>
-                Their argument was interrupted when The Black Sun mercenaries, who <br/>
-                had been tracking Elias, arrived. A brutal skirmish followed, <br/>
-                forcing Alex and David to work together despite the tension. <br/>
-                Fighting side by side once again, they managed to fend off the<br/> 
-                mercenaries, but at a cost. Elias was captured, and Alex was <br/>
-                left with the knowledge that her past was now intertwined with <br/>
-                David’s future.
-            </p>
-
-            <p>
-                After the battle, the silence between them was heavy. Alex felt <br/>
-                the weight of her past pressing down on her, but there was no time<br/> 
-                for remorse. The journey had to continue, and whether David liked <br/>
-                it or not, they were still bound by the same goal—survival.
-            </p>
-            <button class="btn btn-primary" onclick="display('sectionContentDetails')">Contents Page</button>
-            <button class="button3 btn btn-primary" onclick="display('sectionEpisode3')">Previous Episode</button>
-            <button class="button2 btn btn-primary" onclick="display('sectionEpisode5')">Next Episode</button>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center m-auto d-flex flex-column justify-content-center">
+                <div>
+                    <h1 class="heading3 mt-4 mb-3">Episode 4: "Shadows of the Past"</h1>
+                </div>
+                <div>
+                    <img src="https://img.freepik.com/free-vector/nature-scene-rural-land-agriculture-grassland-abtract-silhouette-asian-farmers-working-rice-field-illustration_1150-37314.jpg?t=st=1727616796~exp=1727620396~hmac=b11880cda40b76b4a4be72d9ab6594c3c6d062ce848fe7b950b834bb43de4b0f&w=1060" class="image-adjust2"/>
+                </div>
+                <div class="paragraph2 mt-4 mb-3">
+                    <p>
+                        The peace of the abandoned village didn’t last long. One night,
+                        while they were resting, a figure from Alex’s past appeared—Elias, 
+                        a former comrade from the rebel group she had once been a part of. 
+                        He had been tracking her for days, intent on drawing her back into 
+                        the fight. His appearance sent Alex spiraling into fear and regret. 
+                        She had left the group after realizing the violence was only 
+                        worsening the war, but Elias had remained, willing to do whatever 
+                        it took to win.
+                    </p>
+        
+                    <p>
+                        Elias exposed Alex’s secret to David—her involvement in the rebellion,
+                        and how her actions had contributed to the war’s escalation. David 
+                        felt betrayed, angry that she hadn’t told him sooner. The revelation 
+                        deepened the divide between them. Alex, once again, found herself on 
+                        the defensive, trying to justify her past actions, but David’s trust 
+                        had been shattered. He couldn’t reconcile the woman he had begun to
+                        care for with the rebel who had caused so much destruction.
+                    </p>
+        
+                    <p>
+                        Their argument was interrupted when The Black Sun mercenaries, who
+                        had been tracking Elias, arrived. A brutal skirmish followed,
+                        forcing Alex and David to work together despite the tension.
+                        Fighting side by side once again, they managed to fend off the 
+                        mercenaries, but at a cost. Elias was captured, and Alex was 
+                        left with the knowledge that her past was now intertwined with 
+                        David’s future.
+                    </p>
+        
+                    <p>
+                        After the battle, the silence between them was heavy. Alex felt
+                        the weight of her past pressing down on her, but there was no time
+                        for remorse. The journey had to continue, and whether David liked
+                        it or not, they were still bound by the same goal—survival.
+                    </p>
+                    <button class="btn btn-primary mt-3 mb-3" onclick="display('sectionContentDetails')">Contents Page</button>
+                    <button class="button3 btn btn-primary mt-3 mb-3" onclick="display('sectionEpisode3')">Previous Episode</button>
+                    <button class="button2 btn btn-primary mt-3 mb-3" onclick="display('sectionEpisode5')">Next Episode</button>
+                </div>        
+            </div>
         </div>
     </div>
-
 </div>
-
+</div>
 
 <div id="sectionEpisode5">
     <div class="background-card3">
-        <div class="d-flex flex-row justify-content-center">
-        <h1 class="heading3">Episode 5: "The Price of Survival"</h1>
-        </div>
-        <div class="d-flex flex-row justify-content-center">
-            <img src="https://img.freepik.com/free-photo/photorealistic-lohri-festival-with-fire_23-2151098252.jpg?t=st=1726557085~exp=1726560685~hmac=d2c9d517924d48e25a809556700123b5261676b1a6f00df3be93b54296157c84&w=996" class="image-adjust2"/>
-        </div>
-        <div class="paragraph2">
-            <p>
-                David’s capture by The Black Sun came swiftly, during a moment of <br/>
-                carelessness when he tried to scavenge for more supplies. The <br/>
-                mercenaries were brutal, interrogating him for information on <br/>
-                Alex, whom they now knew to be a former rebel. Despite the pain <br/>
-                and the temptation to give in, David refused to betray her. For <br/>
-                all his mistrust, something deeper had taken root—a loyalty he <br/>
-                couldn’t explain, even to himself.
-            </p>
-
-            <p>
-                Meanwhile, Alex was left to confront the guilt of her past once more. <br/>
-                The thought of leaving David behind crossed her mind—after all, she <br/>
-                had survived on her own for so long. But the memory of their shared <br/>
-                struggles, of his quiet vulnerability, and his refusal to betray her, <br/>
-                pushed her to take action. She couldn’t abandon him like she had <br/>
-                abandoned others in her past. This time, she would fight.
-            </p>
-
-            <p>
-                The rescue mission was dangerous and reckless, but Alex was determined. <br/>
-                She tracked the mercenaries to their camp and, using the survival skills <br/>
-                she had honed over the years, she infiltrated their ranks. Along the way, <br/>
-                she encountered former comrades from her rebel days who had since joined <br/>
-                The Black Sun. The reunion was bitter, filled with accusations and regrets. <br/>
-                But Alex knew there was no going back.
-            </p>
-
-            <p>
-                In the dead of night, she managed to free David, but not without a cost. <br/>
-                Both of them were injured during the escape, and their supplies were <br/>
-                dwindling. Still, David’s trust in Alex had been restored—he had seen <br/>
-                her risk everything for him, and in doing so, she had proven her loyalty. <br/>
-                But the path ahead remained perilous, with the looming threat of both <br/>
-                the environment and their pursuers.
-            </p>
-            <button class="btn btn-primary" onclick="display('sectionContentDetails')">Contents Page</button>
-            <button class="button3 btn btn-primary" onclick="display('sectionEpisode4')">Previous Episode</button>
-            <button class="button2 btn btn-primary" onclick="display('sectionEpisode6')">Next Episode</button>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center m-auto d-flex flex-column justify-content-center">
+                    <div>
+                        <h1 class="heading3 mt-4 mb-3">Episode 5: "The Price of Survival"</h1>
+                    </div>
+                    <div>
+                        <img src="https://img.freepik.com/free-photo/cinematic-rendering-showing-great-migration_23-2151334758.jpg?t=st=1727617389~exp=1727620989~hmac=8720fe992582ccf54a9d0b4f010856fdd22f0eaf09d0ed0a081d9acdfa860040&w=1060" class="image-adjust2"/>
+                    </div>
+                    <div class="paragraph2 mt-4 mb-3">
+                        <p>
+                            David’s capture by The Black Sun came swiftly, during a moment of
+                            carelessness when he tried to scavenge for more supplies. The
+                            mercenaries were brutal, interrogating him for information on
+                            Alex, whom they now knew to be a former rebel. Despite the pain
+                            and the temptation to give in, David refused to betray her. For
+                            all his mistrust, something deeper had taken root—a loyalty he 
+                            couldn’t explain, even to himself.
+                        </p>
+            
+                        <p>
+                            Meanwhile, Alex was left to confront the guilt of her past once more.
+                            The thought of leaving David behind crossed her mind—after all, she
+                            had survived on her own for so long. But the memory of their shared 
+                            struggles, of his quiet vulnerability, and his refusal to betray her,
+                            pushed her to take action. She couldn’t abandon him like she had
+                            abandoned others in her past. This time, she would fight.
+                        </p>
+            
+                        <p>
+                            The rescue mission was dangerous and reckless, but Alex was determined.
+                            She tracked the mercenaries to their camp and, using the survival skills
+                            she had honed over the years, she infiltrated their ranks. Along the way,
+                            she encountered former comrades from her rebel days who had since joined 
+                            The Black Sun. The reunion was bitter, filled with accusations and regrets.
+                            But Alex knew there was no going back.
+                        </p>
+            
+                        <p>
+                            In the dead of night, she managed to free David, but not without a cost.
+                            Both of them were injured during the escape, and their supplies were
+                            dwindling. Still, David’s trust in Alex had been restored—he had seen 
+                            her risk everything for him, and in doing so, she had proven her loyalty.
+                            But the path ahead remained perilous, with the looming threat of both 
+                            the environment and their pursuers.
+                        </p>
+                        <button class="btn btn-primary mt-3 mb-3" onclick="display('sectionContentDetails')">Contents Page</button>
+                        <button class="button3 btn btn-primary mt-3 mb-3" onclick="display('sectionEpisode4')">Previous Episode</button>
+                        <button class="button2 btn btn-primary mt-3 mb-3" onclick="display('sectionEpisode6')">Next Episode</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-</div>
+</div>            
 
 
 <div id="sectionEpisode6">
     <div class="background-card3">
-        <div class="d-flex flex-row justify-content-center">
-        <h1 class="heading3">Episode 6: "A Fragile Alliance"<h1>
-        </div>
-        <div class="d-flex flex-row justify-content-center">
-            <img src="https://img.freepik.com/free-photo/two-men-hiking-foggy-autumn-forest-generated-by-ai_188544-37454.jpg?t=st=1726557637~exp=1726561237~hmac=d368a1fb3fe9938d8d56f36a782c55a5e00a7ae57d3f824a5a8104177591dcaa&w=1060" class="image-adjust2"/>
-        </div>
-        <div class="paragraph2">
-            <p>
-                After their narrow escape from The Black Sun camp, Alex and David <br/>
-                found themselves deep in the heart of the forest, far from any sign <br/>
-                of civilization. Their injuries slowed them down, but they knew they <br/>
-                couldn’t stop for long. The mercenaries would be hunting them, and the<br/> 
-                harsh environment around them was just as deadly. Supplies were running<br/>
-                low, and the constant threats—wild animals, natural disasters, and human <br/>
-                enemies—forced them to keep moving, even when exhaustion clawed at their<br/>
-                bones.
-            </p>
-
-            <p>
-                As they limped forward, the tension between them began to dissipate. <br/>
-                David was no longer suspicious of Alex; he had seen her courage and <br/>
-                the risks she had taken to save him. In their brief moments of rest, <br/>
-                they spoke more openly, sharing stories of their lives before the war. <br/>
-                David confessed the weight of the things he had done as a soldier, things <br/>
-                he had been forced to do to survive. Alex, in turn, told him more about <br/>
-                her time with the rebel group, how their idealism had been shattered by <br/>
-                the violence they had caused.
-            </p>
-
-            <p>
-                But even as they grew closer, the journey tested their fragile alliance. <br/>
-                A particularly severe storm struck one evening, sending torrential rain <br/>
-                and violent winds crashing through the trees. They took shelter in a cave, <br/>
-                but the storm didn’t relent for hours, leaving them cold, wet, and miserable. <br/>
-                Frustrations flared. Alex wanted to keep pushing forward, while David, weak <br/>
-                from his injuries, insisted they wait out the storm. Another argument broke <br/>
-                out, old wounds reopening as accusations flew. Alex, still haunted by her past, <br/>
-                snapped at David, accusing him of being just like the soldiers who had hunted <br/>
-                her rebel group.
-            </p>
-
-            <p>
-                Despite the tension, they weathered the storm and pressed on. In the quiet that <br/>
-                followed their argument, the reality of their situation sunk in—they needed each <br/>
-                other to survive. And though they both carried the weight of guilt and trauma, <br/>
-                their connection was undeniable. As they walked side by side, the silence between <br/>
-                them became less about distrust and more about understanding. They still had a long <br/>
-                way to go, but they were no longer just allies of convenience. Something deeper was <br/>
-                growing between them.
-            </p>
-            <button class="btn btn-primary" onclick="display('sectionContentDetails')">Contents Page</button>
-            <button class="button3 btn btn-primary" onclick="display('sectionEpisode5')">Previous Episode</button>
-            <button class="button2 btn btn-primary" onclick="display('sectionEpisode7')">Next Episode</button>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center m-auto d-flex flex-column justify-content-center">
+                    <div>
+                        <h1 class="heading3 mt-4 mb-3">Episode 6: "A Fragile Alliance"<h1>
+                    </div>
+                    <div>
+                        <img src="https://img.freepik.com/free-photo/side-view-robots-hugging_23-2150976722.jpg?t=st=1727618369~exp=1727621969~hmac=0a07c05165743c04c6b3f97b0811a05454b4fe8c83dfb698c6de01ebafbe0fbf&w=740" class="image-adjust2"/>
+                    </div>
+                    <div class="paragraph2 mt-4 mb-3">
+                        <p>
+                            After their narrow escape from The Black Sun camp, Alex and David 
+                            found themselves deep in the heart of the forest, far from any sign 
+                            of civilization. Their injuries slowed them down, but they knew they 
+                            couldn’t stop for long. The mercenaries would be hunting them, and the
+                            harsh environment around them was just as deadly. Supplies were running
+                            low, and the constant threats—wild animals, natural disasters, and human 
+                            enemies—forced them to keep moving, even when exhaustion clawed at their
+                            bones.
+                        </p>
+            
+                        <p>
+                            As they limped forward, the tension between them began to dissipate. 
+                            David was no longer suspicious of Alex; he had seen her courage and 
+                            the risks she had taken to save him. In their brief moments of rest, 
+                            they spoke more openly, sharing stories of their lives before the war. 
+                            David confessed the weight of the things he had done as a soldier, things 
+                            he had been forced to do to survive. Alex, in turn, told him more about 
+                            her time with the rebel group, how their idealism had been shattered by 
+                            the violence they had caused.
+                        </p>
+            
+                        <p>
+                            But even as they grew closer, the journey tested their fragile alliance. 
+                            A particularly severe storm struck one evening, sending torrential rain 
+                            and violent winds crashing through the trees. They took shelter in a cave, 
+                            but the storm didn’t relent for hours, leaving them cold, wet, and miserable. 
+                            Frustrations flared. Alex wanted to keep pushing forward, while David, weak 
+                            from his injuries, insisted they wait out the storm. Another argument broke 
+                            out, old wounds reopening as accusations flew. Alex, still haunted by her past, 
+                            snapped at David, accusing him of being just like the soldiers who had hunted 
+                            her rebel group.
+                        </p>
+            
+                        <p>
+                            Despite the tension, they weathered the storm and pressed on. In the quiet that 
+                            followed their argument, the reality of their situation sunk in—they needed each 
+                            other to survive. And though they both carried the weight of guilt and trauma,
+                            their connection was undeniable. As they walked side by side, the silence between
+                            them became less about distrust and more about understanding. They still had a long
+                            way to go, but they were no longer just allies of convenience. Something deeper was
+                            growing between them.
+                        </p>
+                        <button class="btn btn-primary mt-3 mb-3" onclick="display('sectionContentDetails')">Contents Page</button>
+                        <button class="button3 btn btn-primary mt-3 mb-3" onclick="display('sectionEpisode5')">Previous Episode</button>
+                        <button class="button2 btn btn-primary mt-3 mb-3" onclick="display('sectionEpisode7')">Next Episode</button>
+                    </div>            
+                </div>
+            </div>
         </div>
     </div>
-
 </div>
-
 
 <div id="sectionEpisode7">
     <div class="background-card3">
-        <div class="d-flex flex-row justify-content-center">
-        <h1 class="heading3">Episode 7: "Beneath the Ashes"</h1>
-        </div>
-        <div class="d-flex flex-row justify-content-center">
-            <img src="https://img.freepik.com/free-photo/view-wildfire-burning-nature_23-2150789199.jpg?t=st=1726558032~exp=1726561632~hmac=9a5cbd44fb1cac78bf569972eb89b9180727aa79debcbdaaec68c871dd1e58ec&w=996" class="image-adjust2"/>
-        </div>
-        <div class="paragraph2">
-            <p>
-                As they neared the border of the safe zone—a region that had <br/>
-                managed to remain untouched by the worst of the war—Alex and <br/>
-                David began to feel a sense of cautious hope. This safe zone <br/>
-                was rumored to be heavily fortified, protected by remnants of <br/>
-                the old government and military forces. It represented their <br/>
-                best chance at survival, but reaching it was no easy task. <br/>
-                The land between them and the sanctuary was a treacherous no <br/>
-                man’s land, filled with raiders, traps, and remnants of The <br/>
-                Black Sun mercenaries.
-            </p>
-
-            <p>
-                The closer they got, the more dangerous the journey became. <br/>
-                At one point, they found themselves navigating through a <br/>
-                narrow canyon, only to be ambushed by a group of desperate <br/>
-                survivors turned bandits. In the ensuing fight, David was <br/>
-                injured again, and Alex was forced to make a brutal decision—she <br/>
-                killed one of the bandits in cold blood to protect David. <br/>
-                It was a moment that shook her to the core, and though she <br/>
-                saved David’s life, the violence of her actions left her <br/>
-                rattled.
-            </p>
-
-            <p>
-                As they regrouped and tended to their wounds, the emotional <br/>
-                weight of their journey began to take its toll. Alex, who had <br/>
-                been hardened by years of isolation and survival, finally let <br/>
-                her guard down completely. She admitted to David that she was <br/>
-                scared—scared of what she had become, scared of the violence <br/>
-                she was capable of, and scared of the possibility that the safe <br/>
-                zone might not be what they hoped it would be.
-            </p>
-
-            <p>
-                David, in turn, shared his own fears—that his past as a soldier <br/>
-                would make him a target in the safe zone, that he would never be <br/>
-                able to leave behind the things he had done. But in that moment, <br/>
-                they found comfort in each other. For the first time, they embraced <br/>
-                their vulnerability, allowing themselves to feel the depth of their <br/>
-                connection. It wasn’t just about survival anymore. They had come to <br/>
-                rely on each other, not just physically but emotionally. And in the <br/>
-                darkest of times, that connection felt like their only source of <br/>
-                light.
-            </p>
-             <button class="btn btn-primary" onclick="display('sectionContentDetails')">Contents Page</button>
-            <button class="button3 btn btn-primary" onclick="display('sectionEpisode6')">Previous Episode</button>
-            <button class="button2 btn btn-primary" onclick="display('sectionEpisode8')">Next Episode</button>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center m-auto d-flex flex-column justify-content-center">
+                    <div>
+                        <h1 class="heading3 mt-4 mb-3">Episode 7: "Beneath the Ashes"</h1>
+                    </div>
+                    <div>
+                        <img src="https://img.freepik.com/free-photo/wildfire-its-consequences-nature_23-2151099449.jpg?t=st=1727618818~exp=1727622418~hmac=b7c44dc39fcd8a985ac0196b252c964ac89b6b0ee7dde27a60f8eac662e11169&w=740" class="image-adjust2"/>
+                    </div>
+                    <div class="paragraph2 mt-4 mb-3">
+                        <p>
+                            As they neared the border of the safe zone—a region that had 
+                            managed to remain untouched by the worst of the war—Alex and 
+                            David began to feel a sense of cautious hope. This safe zone 
+                            was rumored to be heavily fortified, protected by remnants of 
+                            the old government and military forces. It represented their 
+                            best chance at survival, but reaching it was no easy task. 
+                            The land between them and the sanctuary was a treacherous no 
+                            man’s land, filled with raiders, traps, and remnants of The 
+                            Black Sun mercenaries.
+                        </p>
+            
+                        <p>
+                            The closer they got, the more dangerous the journey became. 
+                            At one point, they found themselves navigating through a 
+                            narrow canyon, only to be ambushed by a group of desperate 
+                            survivors turned bandits. In the ensuing fight, David was 
+                            injured again, and Alex was forced to make a brutal decision—she 
+                            killed one of the bandits in cold blood to protect David. 
+                            It was a moment that shook her to the core, and though she 
+                            saved David’s life, the violence of her actions left her 
+                            rattled.
+                        </p>
+            
+                        <p>
+                            As they regrouped and tended to their wounds, the emotional 
+                            weight of their journey began to take its toll. Alex, who had 
+                            been hardened by years of isolation and survival, finally let 
+                            her guard down completely. She admitted to David that she was 
+                            scared—scared of what she had become, scared of the violence 
+                            she was capable of, and scared of the possibility that the safe
+                            zone might not be what they hoped it would be.
+                        </p>
+            
+                        <p>
+                            David, in turn, shared his own fears—that his past as a soldier 
+                            would make him a target in the safe zone, that he would never be 
+                            able to leave behind the things he had done. But in that moment, 
+                            they found comfort in each other. For the first time, they embraced 
+                            their vulnerability, allowing themselves to feel the depth of their 
+                            connection. It wasn’t just about survival anymore. They had come to 
+                            rely on each other, not just physically but emotionally. And in the 
+                            darkest of times, that connection felt like their only source of
+                            light.
+                        </p>
+                         <button class="btn btn-primary mt-3 mb-3" onclick="display('sectionContentDetails')">Contents Page</button>
+                        <button class="button3 btn btn-primary mt-3 mb-3" onclick="display('sectionEpisode6')">Previous Episode</button>
+                        <button class="button2 btn btn-primary mt-3 mb-3" onclick="display('sectionEpisode8')">Next Episode</button>
+                    </div>            
+                </div>
+            </div>
         </div>
     </div>
-
 </div>
-
 
 <div id="sectionEpisode8">
     <div class="background-card3">
-        <div class="d-flex flex-row justify-content-center">
-        <h1 class="heading3">Episode 8: "Ashes to Ashes"</h1>
-        </div>
-        <div class="d-flex flex-row justify-content-center">
-            <img src="https://img.freepik.com/premium-photo/golden-misty-sunrise-pond-autumn-morning-trees-with-rays-sun-cutting-through-branches-reflected-water-ai-generated-illustration_1019806-5965.jpg?w=1060" class="image-adjust2"/>
-        </div>
-        <div class="paragraph2">
-            <p>
-                The final stretch of their journey was the most dangerous. As they <br/>
-                approached the border of the safe zone, they found themselves caught <br/>
-                in the crossfire of a battle between The Black Sun mercenaries and <br/>
-                the remnants of the rebel group Alex had once been part of. The chaos <br/>
-                around them was overwhelming—explosions echoed through the forest, and <br/>
-                the sky was thick with smoke. They were forced to take cover, watching <br/>
-                from a distance as the two factions tore each other apart.
-            </p>
-
-            <p>
-                In the midst of the battle, Alex spotted Elias, the rebel leader who <br/>
-                had once been her comrade. He was locked in a desperate fight with a <br/>
-                group of mercenaries, his face twisted in fury. For a brief moment, <br/>
-                Alex considered intervening, but David stopped her. He reminded her <br/>
-                that their priority was reaching the safe zone, not getting involved <br/>
-                in a war that no longer mattered to them. With a heavy heart, Alex <br/>
-                agreed. They couldn’t save everyone, and they couldn’t keep fighting <br/>
-                a war they had no stake in.
-            </p>
-
-            <p>
-                As they neared the safe zone’s fortified gates, they were confronted <br/>
-                by a group of soldiers guarding the entrance. The soldiers were suspicious <br/>
-                of anyone approaching, especially those with military or rebel ties. Alex <br/>
-                and David were questioned harshly, and for a moment, it seemed as though <br/>
-                they might be turned away. But David, using the last of his strength, <br/>
-                spoke up. He told the soldiers the truth about their journey—the struggles <br/>
-                they had faced, the battles they had fought, and the sacrifices they had made <br/>
-                to survive.
-            </p>
-
-            <p>
-                Moved by their story, the soldiers finally allowed them passage into the <br/>
-                safe zone. As they crossed the threshold into the sanctuary, Alex and David <br/>
-                felt a wave of relief wash over them. For the first time in what felt like <br/>
-                an eternity, they were safe. The air inside the zone was clean, the buildings <br/>
-                intact, and the people around them didn’t look like they were fighting for their <br/>
-                lives. It was a new world, one they had only dreamed of.
-            </p>
-
-            <p>
-               But even as they entered this new life, Alex and David knew their journey <br/>
-               wasn’t over. They had found safety, but the scars of their past still <br/>
-               remained. They had to learn how to live in this new world, how to let go <br/>
-               of the trauma they carried. And, perhaps most importantly, they had to <br/>
-               figure out what their connection meant in a world no longer ruled by <br/>
-               survival. As the sun rose over the sanctuary, casting a warm light over <br/>
-               the landscape, they stood together, hand in hand, ready to face whatever <br/>
-               came next.
-            </p>
-             <button class="btn btn-primary" onclick="display('sectionContentDetails')">Contents Page</button>
-            <button class="button3 btn btn-primary" onclick="display('sectionEpisode7')">Previous Episode</button>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center m-auto d-flex flex-column justify-content-center">
+                    <div>
+                        <h1 class="heading3 mt-4 mb-3">Episode 8: "Ashes to Ashes"</h1>
+                    </div>
+                    <div>
+                        <img src="https://img.freepik.com/premium-photo/golden-misty-sunrise-pond-autumn-morning-trees-with-rays-sun-cutting-through-branches-reflected-water-ai-generated-illustration_1019806-5965.jpg?w=1060" class="image-adjust2"/>
+                    </div>
+                    <div class="paragraph2 mt-4 mb-3">
+                        <p>
+                            The final stretch of their journey was the most dangerous. As they 
+                            approached the border of the safe zone, they found themselves caught 
+                            in the crossfire of a battle between The Black Sun mercenaries and 
+                            the remnants of the rebel group Alex had once been part of. The chaos 
+                            around them was overwhelming—explosions echoed through the forest, and 
+                            the sky was thick with smoke. They were forced to take cover, watching 
+                            from a distance as the two factions tore each other apart.
+                        </p>
+            
+                        <p>
+                            In the midst of the battle, Alex spotted Elias, the rebel leader who 
+                            had once been her comrade. He was locked in a desperate fight with a 
+                            group of mercenaries, his face twisted in fury. For a brief moment, 
+                            Alex considered intervening, but David stopped her. He reminded her 
+                            that their priority was reaching the safe zone, not getting involved 
+                            in a war that no longer mattered to them. With a heavy heart, Alex 
+                            agreed. They couldn’t save everyone, and they couldn’t keep fighting 
+                            a war they had no stake in.
+                        </p>
+            
+                        <p>
+                            As they neared the safe zone’s fortified gates, they were confronted 
+                            by a group of soldiers guarding the entrance. The soldiers were suspicious 
+                            of anyone approaching, especially those with military or rebel ties. Alex 
+                            and David were questioned harshly, and for a moment, it seemed as though 
+                            they might be turned away. But David, using the last of his strength, 
+                            spoke up. He told the soldiers the truth about their journey—the struggles 
+                            they had faced, the battles they had fought, and the sacrifices they had made 
+                            to survive.
+                        </p>
+            
+                        <p>
+                            Moved by their story, the soldiers finally allowed them passage into the 
+                            safe zone. As they crossed the threshold into the sanctuary, Alex and David 
+                            felt a wave of relief wash over them. For the first time in what felt like 
+                            an eternity, they were safe. The air inside the zone was clean, the buildings
+                            intact, and the people around them didn’t look like they were fighting for their
+                            lives. It was a new world, one they had only dreamed of.
+                        </p>
+            
+                        <p>
+                           But even as they entered this new life, Alex and David knew their journey 
+                           wasn’t over. They had found safety, but the scars of their past still 
+                           remained. They had to learn how to live in this new world, how to let go 
+                           of the trauma they carried. And, perhaps most importantly, they had to 
+                           figure out what their connection meant in a world no longer ruled by 
+                           survival. As the sun rose over the sanctuary, casting a warm light over
+                           the landscape, they stood together, hand in hand, ready to face whatever
+                           came next.
+                        </p>
+                         <button class="btn btn-primary mt-3 mb-3" onclick="display('sectionContentDetails')">Contents Page</button>
+                        <button class="button3 btn btn-primary mt-3 mb-3" onclick="display('sectionEpisode7')">Previous Episode</button>
+                    </div>            
+                </div>
+            </div>
         </div>
     </div>
-
 </div>
-<script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
 </body>
+<script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
 </html>
