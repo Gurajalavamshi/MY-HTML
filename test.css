@@ -17,47 +17,53 @@
     font-style: italic;
 }
 .paragraph1{
-    font-size:18px ;
+    font-size:25px ;
     font-family: "crimson text";
-    color: #ffffff;
+    color: #f1f1f6d5;
     text-align: center;
     font-style: italic;
+    font-weight: bold;
     
 }
 .button1{
-    background-color:rgb(150, 212, 221);
+    background-color: linen;
     border-radius: 4px;
     color: rgb(22, 49, 72);
     font-size: 11px;
-    padding: 5px;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
     text-align: center;
     text-decoration: underline;
+    font-weight: bold;
 }
 .background-card2{
-    background-color: rgb(150, 185, 186);
+    background-color: #BCB4B4;
     background-size: cover;
 
 
 }
 .heading2{
+    text-decoration: underline;
+    font-weight: bold;
     text-align: center;
     font-family: bree serif;
-    font-size: 25px;
-    color: ;
+    font-size: 30px;
+    color: black;
 }
 .contents1{
     font-family: "bree serif";
-    font-size: 22px;
+    font-size: 27px;
     color: #0a0807;
     text-decoration: underline;
 }
 .background-card3{
-    background-color: #0f1311;
+    background-color: #CECECE;
 }
 .heading3{
     font-family: "bree serif";
     font-size: 23px;
-    color: gainsboro;
+    color: #181c1c;
 }
 .image-adjust2{
     border-radius: 5px;
@@ -68,9 +74,25 @@
     text-align: center;
     font-family: "lora";
     font-size: 20px;
-    color: #6E7F80;
+    color: #181c1c;
 }
 .button2{
     font-size: 18px;
     border-radius: 8px;
+}
+.image-logo{
+    border-radius: 15px;
+    border-color: pink;
+    border-style: solid;
+    width: 55px;
+    height: 55px;
+}
+#nav-color1{
+    color: black;
+}
+#nav-color2{
+    color: black;
+}
+.bg-nav-container{
+    background-color: green;
 }
