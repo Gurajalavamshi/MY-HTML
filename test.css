@@ -11,7 +11,7 @@
 .heading1{
     font-family: "playfair Display";
     font-size: 35px;
-    color: #3b2716;
+    color: #ffffff;
     font-weight: bold;
     text-align: center;
     font-style: italic;
@@ -53,7 +53,7 @@
 }
 .contents1{
     font-family: "bree serif";
-    font-size: 25px;
+    font-size: 22px;
     color: #0a0807;
     text-decoration: underline;
 }
